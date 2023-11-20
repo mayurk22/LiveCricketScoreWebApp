@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url:  jdbc:mysql://127.0.0.1:3306/crickinformerdb
+    username: root
+    password: Mayur@1993
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+
+server:
+  port: 9090
+
+
